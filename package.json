@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zarekivey/weather-app#readme",
   "dependencies": {
+    "axios": "^0.13.1",
     "lodash": "^4.17.11",
     "request": "^2.73.0",
     "yargs": "^4.8.1"

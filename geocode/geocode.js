@@ -3,7 +3,6 @@ const request = require('request')
 const _ = require('lodash')
 const mapQuestQualityCodes = ['P1', 'L1', 'I1', 'B1', 'B2', 'B3', 'A4', 'A5', 'A6', 'Z1', 'Z1', 'Z3', 'Z4'];
 
-
 const geocodeAddress = (address, callback) => {
     let encodedAddress = encodeURIComponent(address)
 
